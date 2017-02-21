@@ -1,0 +1,478 @@
+---
+title: Santegra Shop - Снижение веса с помощью колец
+
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+	
+	<!-- BEGIN top -->
+	<section class="top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<!-- BEGIN logo -->
+					<div class="logo">Santegra Shop</div>
+					<!-- END logo -->
+				</div>
+				<div class="col-md-6 col-md-offset-3">
+					<!-- BEGIN form-side -->
+					<div class="form-side">
+						<h1 class="form-side__title title-primary">
+							Снижение веса <br> с помощью колец
+						</h1>
+						<div class="form-side__alert alert">
+							<div class="alert__sign">
+								<i class="icon-sign"></i>
+							</div>
+							<div class="alert__content">
+								Жиросжигающие свойства простопоражают!
+							</div>
+						</div>
+						<div class="form-side__form form">
+							<form action='/land/order' method="POST" class="al-form">
+								<select name="country" class="al-country" style="display: none;"></select>
+								<div class="form__row">
+									<div class="input">
+										<label>Введите Ваше имя</label>
+										<input type="text" name="name" placeholder="Валентина Ивановна">
+									</div>
+								</div>
+								<div class="form__row">
+									<div class="input">
+										<label>Введите номер телефона</label>
+										<input type="tel" name="phone" placeholder="+3 80">
+									</div>
+								</div>
+								<div class="form__btn">
+									<button type="submit" class="btn">
+										<span>Заказать</span>
+										<i class="icon-arrow"></i>
+									</button>
+								</div>
+								<div class="form__meta">
+									<i class="icon-lock"></i>
+									<span>Ваши данные под защитой</span>
+								</div>
+							</form>
+						</div>
+					</div>
+					<!-- END form-side -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END top -->
+
+	<!-- BEGIN info -->
+	<section class="info">
+		<div class="container info__in">
+			<div class="row">
+				<div class="col-md-6">
+					<!-- BEGIN description -->
+					<div class="description">
+						<h2 class="description__title title-secondary">Лишнему весу не устоять!</h2>
+						<div class="description__text">
+							<p>
+								Форма кольца и расположение магнитов стимулируют точки, которые отвечают за обменные процессы, как во всем организме, так и в отдельных частях тела. 
+							</p>
+							<p>
+								За счет такого воздействия, <b>снижается аппетит</b>, <b>быстрее происходит расщепление жировой ткани,</b> <b>ускоряется метаболизм.</b>
+							</p>
+							<p>
+								Во время ношения украшение соприкасается с определенными точками на пальцах, которые сопряжены с частями тела, а это значит, что Вы можете воздействовать именно на те участки, которые нуждаются в коррекции
+							</p>
+						</div>
+						<div class="description__alert alert alert_warning">
+							<div class="alert__sign">
+								<i class="icon-sign-big"></i>
+							</div>
+							<div class="alert__content">
+								<p>
+									Не рекомендуется для использования: при беременности, возрастом до 2-х лет, людям с предрасположенностью к кровотечениям и особам с кардиостимуляторами.
+								</p>
+								<p>
+									Результаты при воздействии магнитов могут быть разными, всё зависит от индивидуальных особенностей организма.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- END description -->
+				</div>
+				<img src="img/hand.png" alt="" class="info__pic">
+			</div>
+		</div>
+	</section>
+	<!-- END info -->
+
+	<!-- BEGIN main -->
+	<section class="main">
+		<div class="container">
+			<div class="row">
+				<!-- BEGIN item -->
+				<div class="item">
+					<div class="col-md-3">
+						<div class="item__pic">
+							<img src="img/product1.png" alt="">
+							<div class="item__price">
+								<div class="item__price-inner">
+									<span class="item__price-value al-cost">1190</span>
+									<span class="item__price-currency">рублей</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-offset-1 col-md-8">
+						<div class="item__content">
+							<div class="item__title">Star кольцо <span>(родий, позолота)</span></div>
+							<div class="item__desc">
+								Воспользуйтесь шансом похудеть без приложения усилий. Кольцо не только украсит ваши пальчики, придаст им утонченности, но и предназначено для снижения избыточного веса.
+							</div>
+							<div class="item__size"><b>Размер:</b> универсальный</div>
+							<div class="item__structure">
+								<b>Состав:</b> родий, верхний слой из золота 18 карат (3 микрона), магниты мощностью 500 Гаусс
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END item -->
+
+				<!-- BEGIN item -->
+				<div class="item">
+					<div class="col-md-3">
+						<div class="item__pic">
+							<img src="img/product2.png" alt="">
+							<div class="item__price">
+								<div class="item__price-inner">
+									<span class="item__price-value al-cost">1190</span>
+									<span class="item__price-currency">рублей</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-offset-1 col-md-8">
+						<div class="item__content">
+							<div class="item__title">Афина кольцо <span>(родий, позолота)</span></div>
+							<div class="item__desc">
+								Изысканное кольцо не только красиво смотрится на вашей руке, но и заботится о фигуре. Носите колечко с пользой и удовольствием!
+							</div>
+							<div class="item__size"><b>Размер:</b> универсальный</div>
+							<div class="item__structure">
+								<b>Состав:</b> родий, верхний слой из золота 18 карат (3 микрона), магниты мощностью 500 Гаусс
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END item -->
+
+				<!-- BEGIN item -->
+				<div class="item">
+					<div class="col-md-3">
+						<div class="item__pic">
+							<img src="img/product3.png" alt="">
+							<div class="item__price">
+								<div class="item__price-inner">
+									<span class="item__price-value al-cost">1190</span>
+									<span class="item__price-currency">рублей</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-offset-1 col-md-8">
+						<div class="item__content">
+							<div class="item__title">Грация кольцо <span>(позолота)</span></div>
+							<div class="item__desc">
+								Кольцо наполнено грацией, очаровывает и притягивает взгляды! Изумительно сочетается с другими изделиями. Создано ошеломлять и покорять! Худейте красиво!
+							</div>
+							<div class="item__size"><b>Размер:</b> универсальный</div>
+							<div class="item__structure">
+								<b>Состав:</b> золото 18 карат (3 микрона), магниты мощностью 500 Гаусс
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END item -->
+
+				<!-- BEGIN item -->
+				<div class="item">
+					<div class="col-md-3">
+						<div class="item__pic">
+							<img src="img/product4.png" alt="">
+							<div class="item__price">
+								<div class="item__price-inner">
+									<span class="item__price-value al-cost">1190</span>
+									<span class="item__price-currency">рублей</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-offset-1 col-md-8">
+						<div class="item__content">
+							<div class="item__title">Камея кольцо <span>(позолота)</span></div>
+							<div class="item__desc">
+								Идеально подходит под любой наряд! Сделает вас не только стройной, но и стильной, уверенной в себе девушкой!
+							</div>
+							<div class="item__size"><b>Размер:</b> универсальный</div>
+							<div class="item__structure">
+								<b>Состав:</b> золото 18 карат (3 микрона), магниты мощностью 500 Гаусс
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END item -->
+
+				<!-- BEGIN item -->
+				<div class="item">
+					<div class="col-md-3">
+						<div class="item__pic">
+							<img src="img/product5.png" alt="">
+							<div class="item__price">
+								<div class="item__price-inner">
+									<span class="item__price-value al-cost">1190</span>
+									<span class="item__price-currency">рублей</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-offset-1 col-md-8">
+						<div class="item__content">
+							<div class="item__title">Лилу кольцо <span>(родий)</span></div>
+							<div class="item__desc">
+								Кольцо для настоящих ценителей тонкого вкуса. Элегантное, нежное, роскошно отблескивает, что придает изделию поистине дорогостоящий вид! Способствует заметному снижению веса. 
+							</div>
+							<div class="item__size"><b>Размер:</b> универсальный</div>
+							<div class="item__structure">
+								<b>Состав:</b> благородный и стойкий металл родий, относящийся к платиновой группе. Отличается исключительной износостойкостью! Магниты мощностью 500 Гаусс
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END item -->
+
+				<!-- BEGIN item -->
+				<div class="item">
+					<div class="col-md-3">
+						<div class="item__pic">
+							<img src="img/product6.png" alt="">
+							<div class="item__price">
+								<div class="item__price-inner">
+									<span class="item__price-value al-cost">1190</span>
+									<span class="item__price-currency">рублей</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-offset-1 col-md-8">
+						<div class="item__content">
+							<div class="item__title">Мадонна кольцо спиралевидное <span>(родий)</span></div>
+							<div class="item__desc">
+								Уникальное, изумительное изделие, имеет яркий блеск. Беспощаден к лишним, затаившимся килограммам по всему телу. Позволяет худеть с комфортом, без мучительных диет.
+							</div>
+							<div class="item__size"><b>Размер:</b> универсальный</div>
+							<div class="item__structure">
+								<b>Состав:</b> высококачественный родий, защищает от царапин. Магниты мощностью 500 Гаусс 
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END item -->
+
+				<!-- BEGIN item -->
+				<div class="item">
+					<div class="col-md-3">
+						<div class="item__pic">
+							<img src="img/product7.png" alt="">
+							<div class="item__price">
+								<div class="item__price-inner">
+									<span class="item__price-value al-cost">1190</span>
+									<span class="item__price-currency">рублей</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-offset-1 col-md-8">
+						<div class="item__content">
+							<div class="item__title">Мерлен кольцо <span>(позолота)</span></div>
+							<div class="item__desc">
+								Невозможно не обратить внимание на эту модель. Шикарное изделие для шикарных дам. Оказывает сильнейший удар по избыточному весу, сделает вас активной и умерит аппетит.
+							</div>
+							<div class="item__size"><b>Размер:</b> универсальный</div>
+							<div class="item__structure">
+								<b>Состав:</b> высококачественная медь, верхний слой из золота 18 карат (3 микрона), магниты мощностью 500 Гаусс 
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END item -->
+
+				<!-- BEGIN item -->
+				<div class="item">
+					<div class="col-md-3">
+						<div class="item__pic">
+							<img src="img/product8.png" alt="">
+							<div class="item__price">
+								<div class="item__price-inner">
+									<span class="item__price-value al-cost">1190</span>
+									<span class="item__price-currency">рублей</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-offset-1 col-md-8">
+						<div class="item__content">
+							<div class="item__title">Силуэт кольцо <span>(родий, позолота)</span></div>
+							<div class="item__desc">
+								Вызывает восторг и восхищение! Вставки родия и позолоты гармонично сочетаются, подчеркнут вашу изящность. Ускоряет метаболические процессы, активизирует процесс сжигания жиров в организме.
+							</div>
+							<div class="item__size"><b>Размер:</b> универсальный</div>
+							<div class="item__structure">
+								<b>Состав:</b> родий, верхний слой из золота 18 карат (3 микрона), магниты мощностью 500 Гаусс
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END item -->
+			</div>
+		</div>
+	</section>
+	<!-- END main -->
+
+	<!-- BEGIN data -->
+	<section class="data">
+		<div class="container">
+			<div class="data__text">
+				<p>
+					Необходимо знать! Известны случаи окрашивания кожи в период ношения медных украшений. Верхнее покрытие изделия может стираться в месте соприкосновения, обратите внимание на содержание меди в вашем организме, так как это свидетельствует о её дефиците! 
+				</p>
+				<p>
+					Как сохранить первоначальный вид колец: не ронять изделия с большой высоты, не ударять о твердые предметы, избегать сильного нагревания (не кладите в машину летом и не оставляйте на солнце), не храните  с банковскими картами, дискетами, чтобы они не размагнитились под действием магнитного поля изделия.
+				</p>
+				<p>
+					Ношение изделий безгранично во времени. Вы можете надевать несколько колец одновременно.
+				</p>
+				<p>
+					Изделие не является продукцией медицинского назначения.
+				</p>
+			</div>
+		</div>
+	</section>
+	<!-- END data -->
+
+	<!-- BEGIN comment-section -->
+	<section class="comment-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h2 class="comment-section__title title-secondary">ОТЗЫВЫ ПОКУПАТЕЛЕЙ</h2>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+
+					<!-- BEGIN comment -->
+					<div class="comment">
+						<div class="comment__pic">
+							<img src="img/ava1.png" alt="">
+						</div>
+						<div class="comment__name">
+							Юлия Билецкая
+							<span>35 лет</span>
+						</div>
+						<div class="comment__text">
+							Присутствует лишний вес. Но есть сомнения, что смогу похудеть только с помощью кольца. Однако, очень красивое украшение. Можно попробовать, надеюсь, что смогу достичь желанных результатов!
+						</div>
+					</div>
+					<!-- END comment -->
+
+				</div>
+				<div class="col-md-4">
+					
+					<!-- BEGIN comment -->
+					<div class="comment">
+						<div class="comment__pic">
+							<img src="img/ava2.png" alt="">
+						</div>
+						<div class="comment__name">
+							Виктория Туровец
+							<span>29 лет</span>
+						</div>
+						<div class="comment__text">
+							Всем привет! Мне сестра подарила колечко Мадонна. Бесподобно смотрится на руке, практичное в носке. Сохранился новый вид. Ношу на безымянном пальце, с талии ушло 4 см за месяц! Рекомендую! 
+						</div>
+					</div>
+					<!-- END comment -->
+
+				</div>
+				<div class="col-md-4">
+					
+					<!-- BEGIN comment -->
+					<div class="comment">
+						<div class="comment__pic">
+							<img src="img/ava3.png" alt="">
+						</div>
+						<div class="comment__name">
+							Елена Сидорянская
+							<span>48 лет</span>
+						</div>
+						<div class="comment__text">
+							Здравствуйте! Приобрела кольцо, модель Мерлен. Я в восторге! Ношу каждый день на протяжении недели. Невероятно, но вес снизился. Ушло 3 кг, это без диет, физических нагрузок. С удовольствием продолжаю его надевать! Может еще парочку себе закажу!
+						</div>
+					</div>
+					<!-- END comment -->
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END comment-section -->
+
+	<!-- BEGIN bottom -->
+	<section class="bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-6">
+					
+					<!-- BEGIN bottom-side -->
+					<div class="bottom-side">
+						<h1 class="bottom-side__title title-secondary">
+							Хочу постройнеть <br> с помощью кольца! 
+						</h1>
+						<div class="bottom-side__form form">
+							<form action='/land/order' method="POST" class="al-form">
+								<select name="country" class="al-country" style="display: none;"></select>
+								<div class="form__row">
+									<div class="input">
+										<label>Введите Ваше имя</label>
+										<input type="text" name="name" placeholder="Валентина Ивановна">
+									</div>
+								</div>
+								<div class="form__row">
+									<div class="input">
+										<label>Введите номер телефона</label>
+										<input type="tel" name="phone" placeholder="+3 80">
+									</div>
+								</div>
+								<div class="form__btn">
+									<button type="submit" class="btn">
+										<span>Заказать</span>
+										<i class="icon-arrow"></i>
+									</button>
+								</div>
+								<div class="form__meta">
+									<i class="icon-lock-white"></i>
+									<span>Ваши данные под защитой</span>
+								</div>
+							</form>
+						</div>
+					</div>
+					<!-- END bottom-side -->
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END bottom -->
+
+{% endblock %}

@@ -1,0 +1,119 @@
+html
+	font-size: 10px
+body
+	background: #FFF
+	font-family:  Roboto, Arial, Helvetica, sans-serif
+	font-weight: 400
+	font-size: 2rem
+	line-height: 1.4 
+	color: #636363
+[class*="icon"]
+	display: inline-block
+	vertical-align: middle
+.title-primary
+	color: #000
+	font-family: Alice, Arial, Helvetica, sans-serif
+	font-weight: 400
+	font-size: 5.5rem
+	line-height: (70 / 55)   
+	text-transform: uppercase
+	+lg
+		font-size: 4rem
+		line-height: 1.2
+	+md
+		br
+			display: none
+	+sm
+		font-size: 3.2rem
+	+xs
+		font-size: 2.8rem
+.title-secondary
+	color: #000000
+	font-family: Alice, Arial, Helvetica, sans-serif
+	font-size: 4.5rem
+	font-weight: 400
+	line-height: 1
+	letter-spacing: -0.01em
+	+lg
+		font-size: 3.5rem
+	+md
+		br
+			display: none
+	+xs
+		font-size: 2.6rem
+.form
+	padding: 28px 30px 27px 29px
+	&__row
+		&:not(:first-of-type)
+			margin-top: 24px
+	&__btn
+		margin-top: 48px
+		+md
+			margin-top: 24px
+	&__meta
+		color: #b7b7b7
+		font-size: 1.4rem
+		text-align: center
+		margin-top: 31px
+		+md
+			margin-top: 24px
+		span
+			display: inline-block
+			vertical-align: middle
+			margin-left: 10px
+			padding-top: 2px
+.input
+	position: relative
+	font-family: Roboto, Arial, Helvetica, sans-serif
+	color: #000
+	input
+		display: block
+		width: 100%
+		height: 40px
+		border-radius: 5px
+		border: 1px solid #d7d7d7
+		background-color: #fff
+		opacity: 0.8
+		padding: 15px 20px 5px
+		font-size: 1.6rem
+		transition: opacity 0.25s, box-shadow 0.25s
+		&:focus
+			box-shadow: 0 5px 8px rgba(191, 191, 191, 0.75)
+			opacity: 1
+		+placeholder-color(#000)
+	label
+		color: #959595
+		font-size: 1rem
+		position: absolute
+		top: 3px
+		left: 20px
+		z-index: 1
+.btn
+	display: block
+	margin: 0 auto
+	border-radius: 30px
+	background-color: #f26522
+	color: #fff
+	font-family: Roboto, Arial, Helvetica, sans-serif
+	font-size: 2rem
+	font-weight: 500
+	text-transform: uppercase
+	text-align: center
+	padding: 17px 46px
+	transition: transform 0.25s, background-color 0.25s
+	+md
+		padding: 17px
+		width: 100%
+	&:hover,
+	&:focus
+		+scale(1.02)
+		background-color: lighten(#f26522, 5%)
+	&:active
+		+scale(0.95)
+		background-color: darken(#f26522, 5%)
+	i
+		margin-left: 27px
+	span
+		display: inline-block
+		vertical-align: middle
+		padding-left: 22px

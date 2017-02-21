@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "description": "",
+  "main": "",
+  "authors": [
+    "serega1905@ukr.net"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

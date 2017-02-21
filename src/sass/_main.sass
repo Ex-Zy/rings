@@ -1,0 +1,300 @@
+.out
+	overflow: hidden
+	min-width: 300px
+.top
+	position: relative
+	padding: 38px 0 87px 
+	background: #ebebeb url(../img/top-bg.jpg) no-repeat center
+	background-size: cover		
+.logo
+	color: #754c24
+	font-family: Alice, Arial, Helvetica, sans-serif
+	font-size: 3.7rem
+	font-weight: 700
+	line-height: (40 / 37)
+	text-transform: uppercase
+	+sm
+		font-size: 3.2rem
+.form-side
+	margin: -7px 0 0 -15px
+	+clr
+	+lg
+		margin: -7px 0 0
+	&__title
+		word-spacing: -0.1em
+		+md
+			margin-top: 20px
+	&__alert
+		margin-top: 40px
+		width: 100%
+		+md
+			margin-top: 20px
+			width: auto
+	&__form
+		margin: 38px auto 0
+		width: 315px
+		background-color: rgba(255, 255, 255, 0.75)
+		+lg
+			width: 100%
+			margin: 38px 0 0
+.alert
+	display: inline-block
+	vertical-align: top
+	font-size: 0
+	position: relative
+	padding-left: 82px
+	+lg
+		width: 100%
+		padding-left: 60px
+	&__sign
+		background-color: #39b54a
+		width: 82px
+		text-align: center
+		position: absolute
+		top: 0
+		bottom: 0
+		left: 0
+		+lg
+			width: 60px
+		i
+			position: absolute
+			top: 0
+			right: 0
+			bottom: 0
+			left: 0
+			margin: auto
+	&__content
+		overflow: hidden
+		padding: 10px 14px
+		color: #000000
+		font-size: 2rem
+		background-color: #fff
+		border: 2px solid #39b54a
+	&.alert_warning
+		padding-left: 97px
+		width: 100%
+		+lg
+			padding-left: 60px
+		+sm
+			margin-top: 20px
+		.alert__sign
+			width: 97px
+			background-color: #f26522
+			+lg
+				width: 60px
+		.alert__content
+			border-color: #f26522
+		p
+			font-size: 1.6rem
+			color: #f26522
+			line-height: 1.25
+			&:not(:first-of-type)
+				margin-top: 12px
+.info
+	&__in
+		position: relative
+	&__pic
+		position: absolute
+		top: 8px
+		left: 656px
+		z-index: -1
+		+md
+			display: none
+.description
+	color: #000
+	position: relative
+	letter-spacing: -0.01em
+	z-index: 1
+	padding: 114px 0 0 0
+	+lg
+		padding: 114px 0 78px
+	+md
+		padding: 40px 0 0 
+	&__title
+		margin-bottom: 48px
+		+md
+			margin-bottom: 20px
+	&__alert
+		margin-top: 57px
+		width: 100%
+	p
+		font-size: 2rem
+		line-height: (30 / 20)
+		color: #636363
+		&:not(:first-of-type)
+			margin-top: 30px
+			+sm
+				margin-top: 20px
+	b
+		color: #f26522
+		font-weight: 700
+.main
+	+clr
+	padding: 170px 0 120px
+	+lg
+		padding: 50px 0
+.item
+	position: relative
+	font-size: 2rem
+	color: #636363
+	&:not(:first-of-type)
+		margin-top: 80px
+		+md
+			margin-top: 30px
+	+clr
+	&__pic
+		margin: -20px 0 0
+		position: relative
+		box-shadow: 0 10px 25px rgba(70, 70, 70, 0.3)
+		border-radius: 50%
+		+md
+			width: 220px
+			height: 220px
+			margin: auto
+		img
+			max-width: 100%
+			display: block
+			height: auto
+	&__content
+		margin-left: -15px
+		+md
+			margin-top: 30px
+			margin-left: 0
+	&__title
+		line-height: 1
+		color: #754c24
+		font-weight: 700
+		span
+			color: #754c24
+			font-weight: 400
+	&__desc
+		margin-top: 13px
+		b
+			font-weight: bold
+	&__size
+		margin-top: 7px
+	&__structure
+		margin-top: 12px
+	&__price
+		border-radius: 50%
+		overflow: hidden
+		width: 105px
+		height: 105px
+		background-color: #F26522
+		position: absolute
+		right: -65px
+		bottom: 0
+		color: #fff
+		line-height: 1
+		+vertical
+		+lg
+			width: 80px
+			height: 80px
+			right: -30px
+	&__price-inner
+		display: inline-block
+		vertical-align: middle
+	&__price-value
+		font-family: Alice, Arial, Helvetica, sans-serif
+		font-size: 4rem
+		display: block
+		+lg
+			font-size: 3rem
+	&__price-currency
+		font-size: 1.6rem
+		+lg
+			font-size: 1.4rem
+.data
+	position: relative
+	min-height: 372px
+	background-color: #c7b299
+	color: #ffffff
+	font-size: 2rem
+	font-weight: 400
+	line-height: (25 / 20)
+	padding: 47px 0 50px
+	p
+		&:not(:first-of-type)
+			margin-top: 25px
+		&:last-of-type
+			text-transform: uppercase
+.comment-section
+	position: relative
+	padding: 136px 0 43px
+	text-align: center
+	+md
+		padding: 30px 0
+	&__title
+		margin-bottom: 100px
+		color: #262626
+		+md
+			margin-bottom: 0
+.comment
+	min-height: 581px
+	box-shadow: 0 0 25px rgba(99, 100, 102, 0.2)
+	background-color: #ffffff
+	padding: 25px
+	font-family: "Open Sans", Arial, Helvetica, sans-serif
+	+md
+		min-height: auto
+		margin: 30px 0 0
+	&__pic
+		width: 209px
+		height: 209px
+		position: relative
+		border-radius: 50%
+		overflow: hidden
+		margin: auto
+		box-shadow: 0 5px 20px rgba(112, 112, 112, 0.5)
+		+md
+			width: 220px
+			height: 220px
+		img
+			position: absolute
+			width: 100%
+			height: 100%
+			top: 0
+			left: 0
+	&__name
+		color: #f26522
+		font-size: 2.1rem
+		font-weight: 700
+		margin-top: 24px
+		+md
+			margin-top: 10px
+		span
+			font-size: 1.7rem
+			font-weight: 400
+			display: block
+			margin-top: 5px
+			+md
+				margin-top: 0
+	&__text
+		margin-top: 30px
+		font-size: 1.7rem
+		+md
+			margin-top: 10px
+.bottom
+	position: relative
+	background: #81a5bf url(../img/bottom-bg.jpg) no-repeat center
+	background-size: cover
+.bottom-side
+	padding: 130px 0 174px
+	+sm
+		padding: 80px 0
+	&__title
+		color: #fff
+		text-transform: uppercase
+		letter-spacing: normal
+		line-height: 1.2
+	&__form
+		padding: 0
+		margin: 74px 0 0 30px
+		max-width: 475px
+		+lg
+			margin: 74px 0 0
+		+md
+			max-width: none
+			margin: 30px 0 0
+	.form__meta
+		color: #fff
